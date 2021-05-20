@@ -1,4 +1,4 @@
-# Day01  开班   路鹏 web前端
+# Day01  开班  
 
 ## Web前端实训安排
 
@@ -48,12 +48,12 @@
 
 ```
 思考：网页主要由什么构成？
-文字、图像、超链接、音频、视频、Flash
+
 ```
 
 ```
 思考：网页是如何形成的呢?
-程序员所写的代码=》浏览器的渲染=》客户端的网页
+
 ```
 
 
@@ -161,8 +161,8 @@
 
 ### 2.常用快捷键
 
+- Alt+鼠标滚轮放大缩小图片 
 - 长按空格+鼠标左键拖动图片
-- Alt+鼠标滚轮放大缩小图片
 - Ctrl+C复制选择区域图片
 - Ctrl+N创建空白区域
 - Ctrl+V粘贴图片
@@ -184,11 +184,11 @@
 
 1.什么是HTML？
 
-html是超文本标记语言
+
 
 2.常用的标签：
 
-（1）内联元素：元素显示在一行，不可以设置宽高，不可以设置上下的margin,设置的padding上下不占据位置
+（1）
 
 - a
 - span
@@ -197,7 +197,7 @@ html是超文本标记语言
 - strong
 - i
 
-（2）块状元素：元素独占一行,可以设置宽高，可以设置margin、padding
+（2）
 
 - div
 - p
@@ -208,25 +208,25 @@ html是超文本标记语言
 - dt
 - dd
 
-(3)内联块状元素:元素显示在一行，可以设置宽高、padding、margin
+(3)
 
 - input
 - select
 - textarea
 - img
 
-3.元素类型转换 display属性
+3.元素类型转换
 
-- none   隐藏元素
-- block   转成块状元素，显示被隐藏元素
-- inline   转成内联元素，显示被隐藏元素
-- inline-block   转成内联块状元素，显示被隐藏元素
+- none  
+- block   
+- inline   
+- inline-block  
 
 ## CSS
 
 1.什么是css？
 
-css是层叠样式表，用来给html元素增加好看的样式的
+
 
 2.css权重
 
@@ -239,25 +239,19 @@ css是层叠样式表，用来给html元素增加好看的样式的
 |   标签选择器/伪元素:after   |  1   |
 |           通配符*           |  0   |
 
-！important > 内联样式 > id > class > 标签选择器 > *
+
 
 3. 盒模型
 
-   content+padding+border+margin
-
-   怪异盒模型：paddding+border不计算入盒子宽高
-
-   box-sizing: border-box;
+   
 
 4. 浮动布局
 
-   float:left/right/none
+   
 
 5. 定位布局
 
-   定位模式（position）:relative/absolute/fixed/static
-
-   边偏移：left、top、bottom、right
+   
 
    
 
@@ -297,7 +291,7 @@ css是层叠样式表，用来给html元素增加好看的样式的
 
 #### 通过上面的电脑屏幕及尺寸的例表上我们得到了几个宽度
 
-1024 1280 1366 1440 1680 1920
+
 
 ### HTML、CSSPC端 浮动布局、定位布局
 
