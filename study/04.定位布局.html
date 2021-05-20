@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定位布局</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 1000px;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+            /* position: relative; */
+        }
+        .son{
+            /* width: 40%;
+            height: 40%; */
+            padding: 30px;
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .wrap{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .content{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 需求1：子盒子在父盒子中，水平垂直居中显示 -->
+        <!-- 需求2:盒子在屏幕窗口水平垂直都居中 -->
+        <!-- 具有绝对定位的元素脱离了文档流，相对定位不脱离文档流 -->
+        <!-- 子绝父相，因为父盒子需要在文档中(浏览器窗口)中占据位置，所以父盒子要用相对定位 -->
+        <!-- 参照物
+            1.固定定位：屏幕窗口
+            2.绝对定位：具有定位属性的父盒子，如果父盒子没有定位属性，参照物是body
+            3.相对定位：自己原来的位置
+        -->
+    <div class="box">
+        <div class="son"></div>
+    </div>
+    <div class="content"></div>
+    <div class="wrap"></div>
+
+</body>
+</html>
